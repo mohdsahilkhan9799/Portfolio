@@ -3,7 +3,7 @@ const social_media_data = [
   {
     index: 1,
     icon_class: "fas fa fa-github",
-    where_to_go_link: "https://github.com/mohd-sahil9799",
+    where_to_go_link: "https://github.com/mohdsahilkhan9799",
   },
   {
     index: 2,

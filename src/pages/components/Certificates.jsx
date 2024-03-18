@@ -14,7 +14,7 @@ function Certificates() {
                   className="cert_data_container"
                   key={index}
                   style={{ boxShadow: ` 0 0 3px ${data.back_grd_color} ` }}
-                  href={data.cert_pdf_link}
+                  // href={data.cert_pdf_link}
                   data-aos="zoom-in-up"
                   data-aos-duration="2000"
                 >

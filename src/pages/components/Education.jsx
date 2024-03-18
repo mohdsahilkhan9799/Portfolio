@@ -1,7 +1,7 @@
 import React from "react";
 import "./Education.css";
-import dyp_college_img from "../../Image/dyp_college_img.jpg";
-import college_logo from "../../Image/college_logo.png";
+import dyp_college_img from "../../Image/bannerimage_1515757127.jpg";
+import college_logo from "../../Image/Manav_Rachna_International_University_(logo).png";
 function Education() {
   const my_education_data = [
     {

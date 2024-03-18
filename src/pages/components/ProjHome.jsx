@@ -22,11 +22,11 @@ function ProjHome() {
           <Githubcomp
             backgroundColor="#512da8"
             shadow="#482e87 0px 0px 9px"
-            href="https://github.com/ganraj21/Portfolio-Web-Application"
+            href="https://github.com/mohdsahilkhan9799"
           />
         </div>
         <div className="proj_right">
-          <img src={proj_img} alt="Project Img" />
+          <img src={proj_img} alt="Project Img" className='img-fluid' />
         </div>
       </div>
     </>
