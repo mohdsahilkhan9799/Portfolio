@@ -1,4 +1,4 @@
-import dental_img from '../../Image/proj_imgs/weather_img.jpg';
+import dental_img from '../../Image/proj_imgs/image_6-1726050190219-252855276.png';
 import resume_img from '../../Image/proj_imgs/resume_img.webp';
 import login_img from '../../Image/proj_imgs/login_img.jpg';
 import profile_img from "../../Image/Profile_imgs/myphoto.png";
@@ -7,26 +7,26 @@ import weather_img from '../../Image/proj_imgs/weather_img.jpg';
 import banking_img from '../../Image/proj_imgs/banking_img.jpg';
 import calci_img from '../../Image/proj_imgs/calci_img.jpg';
 import todo_img from '../../Image/proj_imgs/todo_img.jpg';
-import metacrypto from '../../Image/proj_imgs/metacrypto_img.png';
+import metacrypto from '../../Image/proj_imgs/auth-v2-login-illustration-light.png';
 import landing_img from '../../Image/proj_imgs/landing_img.png';
 
 const proj_data = [
   {
     id: 1,
-    project_name: 'F-work dr.Archika Web-Application',
+    project_name: 'dr.Archika Web-Application',
     proj_creation_date: 'Nov 2022',
     project_image: dental_img,
     // proj_code_like: 'https://github.com/ganraj21/Dental_Clinic',
-    proj_live_link: 'https://fwork.aarvytechnologies.in/',
+    proj_live_link: 'https://drarchikadidi.com/',
   },
-  // {
-  //   id: 2,
-  //   project_name: 'Open-metacryptoAI',
-  //   proj_creation_date: 'Feb 2023',
-  //   project_image: metacrypto,
-  //   // proj_code_like: 'https://github.com/ganraj21/Open-metacryptoAI',
-  //   proj_live_link: 'https://metacrypto.vercel.app/',
-  // },
+  {
+    id: 2,
+    project_name: 'ERP Verdical',
+    proj_creation_date: 'Feb 2023',
+    project_image: metacrypto,
+    // proj_code_like: 'https://github.com/ganraj21/Open-metacryptoAI',
+    proj_live_link: 'https://erp.verdical.in/login',
+  },
 
   {
     id: 3,
@@ -98,8 +98,8 @@ const proj_data = [
     project_name: 'Quick To-Do-List Web-Application',
     proj_creation_date: 'Dec 2021',
     project_image: todo_img,
-    proj_code_like: 'https://github.com/ganraj21/Quick-To-Do-List',
-    proj_live_link: 'https://ganraj21.github.io/Quick-To-Do-List/',
+    // proj_code_like: 'https://github.com/ganraj21/Quick-To-Do-List',
+    // proj_live_link: 'https://ganraj21.github.io/Quick-To-Do-List/',
   },
 ];
 

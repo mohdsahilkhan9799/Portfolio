@@ -5,7 +5,7 @@ const personal_info_data = [
       {
         index: 1,
         data_type: "Age",
-        data_value: "24",
+        data_value: "25",
       },
       {
         index: 2,

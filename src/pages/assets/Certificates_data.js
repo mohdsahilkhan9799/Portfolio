@@ -12,8 +12,8 @@ const my_certificates_data = [
     cert_provider_img_link: tcs_img,
     cert_time_stamp: 'Oct 2021',
     back_grd_color: '#e0e0e0',
-    cert_pdf_link:
-      'https://drive.google.com/file/d/19UkvTFPvHNz52rKzfpU5zbCA2pGhbN-k/view',
+    // cert_pdf_link:
+    //   'https://drive.google.com/file/d/19UkvTFPvHNz52rKzfpU5zbCA2pGhbN-k/view',
   },
   {
     index: 2,
@@ -22,8 +22,8 @@ const my_certificates_data = [
     cert_provider_img_link: gc_img,
     cert_time_stamp: 'Oct 2021',
     back_grd_color: '#fff176',
-    cert_pdf_link:
-      'https://www.cloudskillsboost.google/public_profiles/0c8ad9e4-1f8b-4753-8c8f-fb9719c627bf',
+    // cert_pdf_link:
+    //   'https://www.cloudskillsboost.google/public_profiles/0c8ad9e4-1f8b-4753-8c8f-fb9719c627bf',
   },
   {
     index: 3,
@@ -32,8 +32,8 @@ const my_certificates_data = [
     cert_provider_img_link: unstop_img,
     cert_time_stamp: 'July 2022',
     back_grd_color: '#d1b7ff',
-    cert_pdf_link:
-      'https://unstop.com/certificate-preview/67c35fbb-1a5c-484c-8785-d76a994dcaee',
+    // cert_pdf_link:
+    //   'https://unstop.com/certificate-preview/67c35fbb-1a5c-484c-8785-d76a994dcaee',
   },
   {
     index: 4,
@@ -42,7 +42,7 @@ const my_certificates_data = [
     cert_provider_img_link: sololearn_img,
     cert_time_stamp: 'Aug 2022',
     back_grd_color: '#aaf5ff',
-    cert_pdf_link: 'https://www.sololearn.com/Certificate/CT-JSJZPXZA/jpg',
+    // cert_pdf_link: 'https://www.sololearn.com/Certificate/CT-JSJZPXZA/jpg',
   },
   {
     index: 5,
@@ -51,8 +51,8 @@ const my_certificates_data = [
     cert_provider_img_link: linked_img,
     cert_time_stamp: 'Nov 2022',
     back_grd_color: '#ffd7ca',
-    cert_pdf_link:
-      'https://www.linkedin.com/learning/certificates/1a781b2bf83dd22dc88e3abd271fa6784e32f14d5ed4bec0e586373abba2553c',
+    // cert_pdf_link:
+    //   'https://www.linkedin.com/learning/certificates/1a781b2bf83dd22dc88e3abd271fa6784e32f14d5ed4bec0e586373abba2553c',
   },
   {
     index: 6,
@@ -61,8 +61,8 @@ const my_certificates_data = [
     cert_provider_img_link: linked_img,
     cert_time_stamp: 'Nov 2022',
     back_grd_color: '#ffd7ca',
-    cert_pdf_link:
-      'https://www.linkedin.com/learning/certificates/60a05a0e8051e8d171c3e7e128a677259d104b2817cc7e4ab345bbf89e54a524',
+    // cert_pdf_link:
+    //   'https://www.linkedin.com/learning/certificates/60a05a0e8051e8d171c3e7e128a677259d104b2817cc7e4ab345bbf89e54a524',
   },
   {
     index: 7,
@@ -71,8 +71,8 @@ const my_certificates_data = [
     cert_provider_img_link: linked_img,
     cert_time_stamp: 'Dec 2022',
     back_grd_color: '#ffd7ca',
-    cert_pdf_link:
-      'https://www.linkedin.com/learning/certificates/485ee10a52fa494f1238f95d17e70c98daed41db00cd3a9beb2e2aab80fda238',
+    // cert_pdf_link:
+    //   'https://www.linkedin.com/learning/certificates/485ee10a52fa494f1238f95d17e70c98daed41db00cd3a9beb2e2aab80fda238',
   },
 ];
 
