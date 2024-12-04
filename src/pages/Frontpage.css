@@ -122,30 +122,33 @@
   align-items: center;
   justify-content: center;
   box-shadow: 0px 3px 0px 0px #ffffff;
-  /* background-image: url('../Image/sky.svg'); */
   height: 400px;
   width: 400px;
   border-radius: 50%;
+  overflow: hidden; /* Ensures content is clipped to rounded border */
+  position: relative;
+}
+
+.profile-picture-background {
+  height: 100%; /* Full coverage inside .profile-picture */
+  width: 100%;
+  background-image: url('../Image/Profile_imgs/myphoto2.jpg');
+  background-size: cover; /* Ensures image fills the area */
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.9;
+
+  /* Gradient mask for lower transparency */
+  mask-image: linear-gradient(to bottom, black, transparent);
+  -webkit-mask-image: linear-gradient(to bottom, black, transparent);
+  animation: bouncing 2s infinite alternate;
+  transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .profile-picture-background:hover {
   animation: bounce_one 1s infinite;
-  transition-property: all;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 0.15s;
 }
-@keyframes bounce_one {
-  0% {
-    transform: translateY(0);
-  }
-  40%,
-  60% {
-    transform: translateY(-9px);
-  }
-  70% {
-    transform: translateY(-8px);
-  }
-}
+
 @keyframes bouncing {
   0% {
     transform: translateY(0);
@@ -158,17 +161,18 @@
   }
 }
 
-.profile-picture-background {
-  height: 90%;
-  width: 100%;
-  background-image: url(../Image/Profile_imgs/myphoto.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  opacity: 0.9;
- 
-  animation: bouncing 2s infinite alternate; 
+@keyframes bounce_one {
+  0% {
+    transform: translateY(0);
+  }
+  40%, 60% {
+    transform: translateY(-9px);
+  }
+  70% {
+    transform: translateY(-8px);
+  }
 }
+
 
 .colz .colz-icon i {
   color: #fff;
@@ -313,10 +317,10 @@
     height: 342px;
     width: 342px;
   }
-  .profile-picture-background {
-    height: 85%;
+  /* .profile-picture-background {
+    height: 5%;
     width: 85%;
-  }
+  } */
   .profile-details-name {
     margin: 6px 0 0 0;
   }
